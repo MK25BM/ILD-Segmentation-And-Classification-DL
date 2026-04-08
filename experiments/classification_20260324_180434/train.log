@@ -1,0 +1,262 @@
+Using device: cpu
+
+[Epoch 01/15]
+Train Loss: 0.9593  |  Val Loss: 6.8684
+--- Validation Report ---
+              precision    recall  f1-score   support
+
+     Healthy     0.0000    0.0000    0.0000      3011
+   Emphysema     0.0291    0.9656    0.0565       407
+Ground Glass     0.0000    0.0000    0.0000      2226
+    Fibrosis     0.9787    0.0621    0.1168      2962
+Micronodules     0.0000    0.0000    0.0000      5988
+
+    accuracy                         0.0395     14594
+   macro avg     0.2016    0.2055    0.0347     14594
+weighted avg     0.1995    0.0395    0.0253     14594
+
+  ↳ New Best Val Acc: 3.95%
+
+[Epoch 02/15]
+Train Loss: 0.5549  |  Val Loss: 2.5320
+--- Validation Report ---
+              precision    recall  f1-score   support
+
+     Healthy     0.2716    1.0000    0.4271      3011
+   Emphysema     0.0567    0.0393    0.0464       407
+Ground Glass     0.0000    0.0000    0.0000      2226
+    Fibrosis     0.6650    0.6715    0.6682      2962
+Micronodules     0.4592    0.0179    0.0344      5988
+
+    accuracy                         0.3510     14594
+   macro avg     0.2905    0.3457    0.2352     14594
+weighted avg     0.3810    0.3510    0.2392     14594
+
+  ↳ New Best Val Acc: 35.10%
+
+[Epoch 03/15]
+Train Loss: 0.3912  |  Val Loss: 11.7550
+--- Validation Report ---
+              precision    recall  f1-score   support
+
+     Healthy     0.2354    0.9993    0.3811      3011
+   Emphysema     0.0691    0.2383    0.1071       407
+Ground Glass     0.0000    0.0000    0.0000      2226
+    Fibrosis     0.9610    0.1330    0.2337      2962
+Micronodules     0.0000    0.0000    0.0000      5988
+
+    accuracy                         0.2398     14594
+   macro avg     0.2531    0.2741    0.1444     14594
+weighted avg     0.2455    0.2398    0.1290     14594
+
+
+[Epoch 04/15]
+Train Loss: 0.3810  |  Val Loss: 13.7142
+--- Validation Report ---
+              precision    recall  f1-score   support
+
+     Healthy     0.2238    1.0000    0.3658      3011
+   Emphysema     0.0793    0.1327    0.0993       407
+Ground Glass     0.0000    0.0000    0.0000      2226
+    Fibrosis     0.9631    0.1499    0.2594      2962
+Micronodules     0.0000    0.0000    0.0000      5988
+
+    accuracy                         0.2404     14594
+   macro avg     0.2533    0.2565    0.1449     14594
+weighted avg     0.2439    0.2404    0.1309     14594
+
+
+[Epoch 05/15]
+Train Loss: 0.3326  |  Val Loss: 6.8165
+--- Validation Report ---
+              precision    recall  f1-score   support
+
+     Healthy     0.2554    0.2810    0.2676      3011
+   Emphysema     0.0357    0.9312    0.0687       407
+Ground Glass     0.0000    0.0000    0.0000      2226
+    Fibrosis     0.6606    0.1465    0.2398      2962
+Micronodules     0.3333    0.0003    0.0007      5988
+
+    accuracy                         0.1138     14594
+   macro avg     0.2570    0.2718    0.1154     14594
+weighted avg     0.3245    0.1138    0.1061     14594
+
+
+[Epoch 06/15]
+Train Loss: 0.3012  |  Val Loss: 7.3235
+--- Validation Report ---
+              precision    recall  f1-score   support
+
+     Healthy     0.3610    0.9920    0.5294      3011
+   Emphysema     0.0000    0.0000    0.0000       407
+Ground Glass     0.0000    0.0000    0.0000      2226
+    Fibrosis     0.7396    0.0422    0.0798      2962
+Micronodules     0.4824    0.4953    0.4888      5988
+
+    accuracy                         0.4165     14594
+   macro avg     0.3166    0.3059    0.2196     14594
+weighted avg     0.4225    0.4165    0.3260     14594
+
+  ↳ New Best Val Acc: 41.65%
+
+[Epoch 07/15]
+Train Loss: 0.2873  |  Val Loss: 4.0171
+--- Validation Report ---
+              precision    recall  f1-score   support
+
+     Healthy     0.5015    0.8818    0.6394      3011
+   Emphysema     0.0507    0.4816    0.0917       407
+Ground Glass     0.0000    0.0000    0.0000      2226
+    Fibrosis     0.6657    0.4470    0.5348      2962
+Micronodules     0.6473    0.3721    0.4725      5988
+
+    accuracy                         0.4387     14594
+   macro avg     0.3730    0.4365    0.3477     14594
+weighted avg     0.5056    0.4387    0.4369     14594
+
+  ↳ New Best Val Acc: 43.87%
+
+[Epoch 08/15]
+Train Loss: 0.2545  |  Val Loss: 5.5856
+--- Validation Report ---
+              precision    recall  f1-score   support
+
+     Healthy     0.0235    0.0050    0.0082      3011
+   Emphysema     0.0348    0.9287    0.0671       407
+Ground Glass     0.0000    0.0000    0.0000      2226
+    Fibrosis     0.6945    0.6256    0.6583      2962
+Micronodules     0.0993    0.0072    0.0134      5988
+
+    accuracy                         0.1568     14594
+   macro avg     0.1704    0.3133    0.1494     14594
+weighted avg     0.1875    0.1568    0.1427     14594
+
+
+[Epoch 09/15]
+Train Loss: 0.2641  |  Val Loss: 5.3450
+--- Validation Report ---
+              precision    recall  f1-score   support
+
+     Healthy     0.4669    0.4523    0.4595      3011
+   Emphysema     0.6928    0.2604    0.3786       407
+Ground Glass     0.0000    0.0000    0.0000      2226
+    Fibrosis     0.5198    0.0665    0.1179      2962
+Micronodules     0.5176    0.9634    0.6734      5988
+
+    accuracy                         0.5094     14594
+   macro avg     0.4394    0.3485    0.3259     14594
+weighted avg     0.4335    0.5094    0.4056     14594
+
+  ↳ New Best Val Acc: 50.94%
+
+[Epoch 10/15]
+Train Loss: 0.2389  |  Val Loss: 3.7691
+--- Validation Report ---
+              precision    recall  f1-score   support
+
+     Healthy     0.3062    0.2869    0.2962      3011
+   Emphysema     0.0673    0.7125    0.1230       407
+Ground Glass     0.0000    0.0000    0.0000      2226
+    Fibrosis     0.7118    0.3926    0.5061      2962
+Micronodules     0.5308    0.5167    0.5237      5988
+
+    accuracy                         0.3708     14594
+   macro avg     0.3232    0.3818    0.2898     14594
+weighted avg     0.4273    0.3708    0.3821     14594
+
+
+[Epoch 11/15]
+Train Loss: 0.1210  |  Val Loss: 5.9094
+--- Validation Report ---
+              precision    recall  f1-score   support
+
+     Healthy     0.4776    0.7509    0.5839      3011
+   Emphysema     0.0471    0.8673    0.0893       407
+Ground Glass     0.0000    0.0000    0.0000      2226
+    Fibrosis     0.6806    0.3957    0.5004      2962
+Micronodules     0.1844    0.0197    0.0356      5988
+
+    accuracy                         0.2675     14594
+   macro avg     0.2779    0.4067    0.2418     14594
+weighted avg     0.3136    0.2675    0.2391     14594
+
+
+[Epoch 12/15]
+Train Loss: 0.1130  |  Val Loss: 5.6553
+--- Validation Report ---
+              precision    recall  f1-score   support
+
+     Healthy     0.4407    0.6373    0.5211      3011
+   Emphysema     0.0460    0.8771    0.0874       407
+Ground Glass     0.0000    0.0000    0.0000      2226
+    Fibrosis     0.6922    0.3781    0.4891      2962
+Micronodules     0.2555    0.0366    0.0640      5988
+
+    accuracy                         0.2477     14594
+   macro avg     0.2869    0.3858    0.2323     14594
+weighted avg     0.3376    0.2477    0.2355     14594
+
+
+[Epoch 13/15]
+Train Loss: 0.1073  |  Val Loss: 6.4831
+--- Validation Report ---
+              precision    recall  f1-score   support
+
+     Healthy     0.4496    0.6025    0.5149      3011
+   Emphysema     0.0449    0.8870    0.0856       407
+Ground Glass     0.0000    0.0000    0.0000      2226
+    Fibrosis     0.6865    0.5463    0.6084      2962
+Micronodules     0.0647    0.0018    0.0036      5988
+
+    accuracy                         0.2607     14594
+   macro avg     0.2491    0.4075    0.2425     14594
+weighted avg     0.2599    0.2607    0.2336     14594
+
+
+[Epoch 14/15]
+Train Loss: 0.1063  |  Val Loss: 5.9097
+--- Validation Report ---
+              precision    recall  f1-score   support
+
+     Healthy     0.3961    0.9917    0.5661      3011
+   Emphysema     0.0516    0.4447    0.0924       407
+Ground Glass     0.0000    0.0000    0.0000      2226
+    Fibrosis     0.6959    0.4642    0.5569      2962
+Micronodules     0.5689    0.1490    0.2361      5988
+
+    accuracy                         0.3723     14594
+   macro avg     0.3425    0.4099    0.2903     14594
+weighted avg     0.4578    0.3723    0.3293     14594
+
+
+[Epoch 15/15]
+Train Loss: 0.0984  |  Val Loss: 5.5960
+--- Validation Report ---
+              precision    recall  f1-score   support
+
+     Healthy     0.5148    0.5430    0.5285      3011
+   Emphysema     0.0454    0.8919    0.0865       407
+Ground Glass     0.0000    0.0000    0.0000      2226
+    Fibrosis     0.6763    0.4922    0.5698      2962
+Micronodules     0.3624    0.0770    0.1270      5988
+
+    accuracy                         0.2684     14594
+   macro avg     0.3198    0.4008    0.2623     14594
+weighted avg     0.3934    0.2684    0.2792     14594
+
+
+==============================
+Evaluating on test set...
+--- Final Test Report ---
+              precision    recall  f1-score   support
+
+     Healthy     0.5148    0.5430    0.5285      3011
+   Emphysema     0.0454    0.8919    0.0865       407
+Ground Glass     0.0000    0.0000    0.0000      2226
+    Fibrosis     0.6763    0.4922    0.5698      2962
+Micronodules     0.3624    0.0770    0.1270      5988
+
+    accuracy                         0.2684     14594
+   macro avg     0.3198    0.4008    0.2623     14594
+weighted avg     0.3934    0.2684    0.2792     14594
+

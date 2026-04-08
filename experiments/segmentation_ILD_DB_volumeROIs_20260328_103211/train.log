@@ -1,0 +1,4 @@
+Using device: cpu
+Scanning dataset: ILD_DB_volumeROIs (Filter empty masks: False) ...
+Found 0 non-empty CT-mask pairs.
+ERROR: No pairs found.
