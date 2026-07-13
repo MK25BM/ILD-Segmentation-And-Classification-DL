@@ -1,0 +1,26 @@
+📡 [09:24:44] 🚀 INITIALIZING PARALLEL OPENAI GUIDED-DIFFUSION DIAGNOSTIC WORKER
+📡 [09:24:46] Checking hardware allocation hooks...
+📡 [09:24:46] Compute engine mapped strictly to device context: cuda
+📡 [09:24:46] Loading multi-label stratified cross-validation splits...
+=================================================================
+🔒 HOLDOUT TEST SET SECURED: 21 patients permanently banned from training.
+   Manifest saved to: /projects/u6dm/mk25bm.u6dm/ILD-Segmentation-And-Classification-DL/permanent_holdout_test_set.csv
+=================================================================
+
+⚖️ Cross-Validation Fold Stratification Profiles (87 Active Patients):
+  • Fold 1: Total Patients = 14 | Unique Diseases Covered = 6/6
+  • Fold 2: Total Patients = 11 | Unique Diseases Covered = 4/6
+  • Fold 3: Total Patients = 13 | Unique Diseases Covered = 5/6
+  • Fold 4: Total Patients = 29 | Unique Diseases Covered = 6/6
+  • Fold 5: Total Patients = 20 | Unique Diseases Covered = 6/6
+=================================================================
+
+📡 [09:24:50] Holdout isolation complete. Training pool restricted to 73 active patients.
+📡 [09:24:50] Initializing High-Speed Native Disk Scraper...
+📡 [09:24:52] Disk scraper built sample matrix array containing 616 targeted slices.
+📡 [09:24:52] Dataset manifest creation elapsed time: 1.67 seconds.
+📡 [09:24:52] Building UNetModel neural configuration maps...
+📡 [09:24:52] Model compiled and pushed to active GPU memory channels successfully.
+📡 [09:24:58] 🔄 RESUME ENGINE ACTIVE: Loaded checkpoint_ddpm_epoch_100.pt. Resuming pipeline training from Epoch 101/100...
+📡 [09:24:58] === 🎨 DISPATCHING VOLUMETRIC 3D DDPM LOOP MATRIX FOR 100 EPOCHS ===
+📡 [09:24:58] 🏆 GENERATIVE DIFFUSION WEIGHTS CHECKPOINT WRITTEN TO DISK SECURELY: /projects/u6dm/mk25bm.u6dm/ILD-Segmentation-And-Classification-DL/benchmarks_cv/final_ild_generative_ddpm.pt

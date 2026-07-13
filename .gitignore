@@ -1,3 +1,18 @@
 # Ignore the data and figure folders
 ILD_DB/
 ILD_DB_fig/
+
+# Ignore PyTorch model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.dcm
+*.png
+
+# Ignore specific heavy data and archive directories
+archive/ILD_DB
+data/
+checkpoint_folders/
+
+# Ignore your downloaded zip
+project_backup.zip

@@ -1,0 +1,88 @@
+/home/u6dm/mk25bm.u6dm/miniforge3/envs/ild_ddpm/lib/python3.10/site-packages/torch/cuda/__init__.py:187: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 12070). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  return torch._C._cuda_getDeviceCount() > 0
+
+⚡ [ATTENTION_RESIDUAL_UNET] Executing Fold 1/5 across hardware allocation matrix...
+  [ATTENTION_RESIDUAL_UNET] Epoch 1/15 | Loss: 3.5300 | Global Dice: 0.4362
+  [ATTENTION_RESIDUAL_UNET] Epoch 2/15 | Loss: 3.1903 | Global Dice: 0.4535
+  [ATTENTION_RESIDUAL_UNET] Epoch 3/15 | Loss: 3.0460 | Global Dice: 0.4089
+  [ATTENTION_RESIDUAL_UNET] Epoch 4/15 | Loss: 2.9406 | Global Dice: 0.3664
+  [ATTENTION_RESIDUAL_UNET] Epoch 5/15 | Loss: 2.8535 | Global Dice: 0.4691
+  [ATTENTION_RESIDUAL_UNET] Epoch 6/15 | Loss: 2.7994 | Global Dice: 0.4240
+  [ATTENTION_RESIDUAL_UNET] Epoch 7/15 | Loss: 2.7115 | Global Dice: 0.4618
+  [ATTENTION_RESIDUAL_UNET] Epoch 8/15 | Loss: 2.6304 | Global Dice: 0.5247
+  [ATTENTION_RESIDUAL_UNET] Epoch 9/15 | Loss: 2.5770 | Global Dice: 0.5386
+  [ATTENTION_RESIDUAL_UNET] Epoch 10/15 | Loss: 2.5106 | Global Dice: 0.3865
+  [ATTENTION_RESIDUAL_UNET] Epoch 11/15 | Loss: 2.4926 | Global Dice: 0.5478
+  [ATTENTION_RESIDUAL_UNET] Epoch 12/15 | Loss: 2.4257 | Global Dice: 0.4698
+  [ATTENTION_RESIDUAL_UNET] Epoch 13/15 | Loss: 2.3690 | Global Dice: 0.5495
+  [ATTENTION_RESIDUAL_UNET] Epoch 14/15 | Loss: 2.3778 | Global Dice: 0.5324
+  [ATTENTION_RESIDUAL_UNET] Epoch 15/15 | Loss: 2.3325 | Global Dice: 0.5334
+
+⚡ [ATTENTION_RESIDUAL_UNET] Executing Fold 2/5 across hardware allocation matrix...
+  [ATTENTION_RESIDUAL_UNET] Epoch 1/15 | Loss: 3.5705 | Global Dice: 0.4789
+  [ATTENTION_RESIDUAL_UNET] Epoch 2/15 | Loss: 3.1456 | Global Dice: 0.4518
+  [ATTENTION_RESIDUAL_UNET] Epoch 3/15 | Loss: 3.0157 | Global Dice: 0.4849
+  [ATTENTION_RESIDUAL_UNET] Epoch 4/15 | Loss: 2.9180 | Global Dice: 0.4858
+  [ATTENTION_RESIDUAL_UNET] Epoch 5/15 | Loss: 2.8218 | Global Dice: 0.4976
+  [ATTENTION_RESIDUAL_UNET] Epoch 6/15 | Loss: 2.7213 | Global Dice: 0.5541
+  [ATTENTION_RESIDUAL_UNET] Epoch 7/15 | Loss: 2.6501 | Global Dice: 0.4977
+  [ATTENTION_RESIDUAL_UNET] Epoch 8/15 | Loss: 2.6016 | Global Dice: 0.4600
+  [ATTENTION_RESIDUAL_UNET] Epoch 9/15 | Loss: 2.4895 | Global Dice: 0.5231
+  [ATTENTION_RESIDUAL_UNET] Epoch 10/15 | Loss: 2.4279 | Global Dice: 0.5162
+  [ATTENTION_RESIDUAL_UNET] Epoch 11/15 | Loss: 2.3657 | Global Dice: 0.5622
+  [ATTENTION_RESIDUAL_UNET] Epoch 12/15 | Loss: 2.3822 | Global Dice: 0.5424
+  [ATTENTION_RESIDUAL_UNET] Epoch 13/15 | Loss: 2.2943 | Global Dice: 0.5000
+  [ATTENTION_RESIDUAL_UNET] Epoch 14/15 | Loss: 2.2614 | Global Dice: 0.5051
+  [ATTENTION_RESIDUAL_UNET] Epoch 15/15 | Loss: 2.1959 | Global Dice: 0.5421
+
+⚡ [ATTENTION_RESIDUAL_UNET] Executing Fold 3/5 across hardware allocation matrix...
+  [ATTENTION_RESIDUAL_UNET] Epoch 1/15 | Loss: 3.6728 | Global Dice: 0.2121
+  [ATTENTION_RESIDUAL_UNET] Epoch 2/15 | Loss: 3.3615 | Global Dice: 0.2495
+  [ATTENTION_RESIDUAL_UNET] Epoch 3/15 | Loss: 3.1998 | Global Dice: 0.3241
+  [ATTENTION_RESIDUAL_UNET] Epoch 4/15 | Loss: 3.0755 | Global Dice: 0.4647
+  [ATTENTION_RESIDUAL_UNET] Epoch 5/15 | Loss: 2.9716 | Global Dice: 0.4519
+  [ATTENTION_RESIDUAL_UNET] Epoch 6/15 | Loss: 2.8988 | Global Dice: 0.4915
+  [ATTENTION_RESIDUAL_UNET] Epoch 7/15 | Loss: 2.7815 | Global Dice: 0.3257
+  [ATTENTION_RESIDUAL_UNET] Epoch 8/15 | Loss: 2.7581 | Global Dice: 0.4351
+  [ATTENTION_RESIDUAL_UNET] Epoch 9/15 | Loss: 2.6574 | Global Dice: 0.4046
+  [ATTENTION_RESIDUAL_UNET] Epoch 10/15 | Loss: 2.6070 | Global Dice: 0.3706
+  [ATTENTION_RESIDUAL_UNET] Epoch 11/15 | Loss: 2.5348 | Global Dice: 0.5900
+  [ATTENTION_RESIDUAL_UNET] Epoch 12/15 | Loss: 2.4718 | Global Dice: 0.5638
+  [ATTENTION_RESIDUAL_UNET] Epoch 13/15 | Loss: 2.4436 | Global Dice: 0.3264
+  [ATTENTION_RESIDUAL_UNET] Epoch 14/15 | Loss: 2.3997 | Global Dice: 0.3945
+  [ATTENTION_RESIDUAL_UNET] Epoch 15/15 | Loss: 2.3709 | Global Dice: 0.5148
+
+⚡ [ATTENTION_RESIDUAL_UNET] Executing Fold 4/5 across hardware allocation matrix...
+  [ATTENTION_RESIDUAL_UNET] Epoch 1/15 | Loss: 3.7092 | Global Dice: 0.5574
+  [ATTENTION_RESIDUAL_UNET] Epoch 2/15 | Loss: 3.3112 | Global Dice: 0.5802
+  [ATTENTION_RESIDUAL_UNET] Epoch 3/15 | Loss: 3.1693 | Global Dice: 0.5729
+  [ATTENTION_RESIDUAL_UNET] Epoch 4/15 | Loss: 3.0796 | Global Dice: 0.5737
+  [ATTENTION_RESIDUAL_UNET] Epoch 5/15 | Loss: 2.9911 | Global Dice: 0.5485
+  [ATTENTION_RESIDUAL_UNET] Epoch 6/15 | Loss: 2.9198 | Global Dice: 0.5823
+  [ATTENTION_RESIDUAL_UNET] Epoch 7/15 | Loss: 2.8224 | Global Dice: 0.5830
+  [ATTENTION_RESIDUAL_UNET] Epoch 8/15 | Loss: 2.7372 | Global Dice: 0.4811
+  [ATTENTION_RESIDUAL_UNET] Epoch 9/15 | Loss: 2.6779 | Global Dice: 0.5702
+  [ATTENTION_RESIDUAL_UNET] Epoch 10/15 | Loss: 2.5598 | Global Dice: 0.5916
+  [ATTENTION_RESIDUAL_UNET] Epoch 11/15 | Loss: 2.5052 | Global Dice: 0.5288
+  [ATTENTION_RESIDUAL_UNET] Epoch 12/15 | Loss: 2.4477 | Global Dice: 0.5728
+  [ATTENTION_RESIDUAL_UNET] Epoch 13/15 | Loss: 2.4138 | Global Dice: 0.5959
+  [ATTENTION_RESIDUAL_UNET] Epoch 14/15 | Loss: 2.3620 | Global Dice: 0.5639
+  [ATTENTION_RESIDUAL_UNET] Epoch 15/15 | Loss: 2.2744 | Global Dice: 0.5921
+
+⚡ [ATTENTION_RESIDUAL_UNET] Executing Fold 5/5 across hardware allocation matrix...
+  [ATTENTION_RESIDUAL_UNET] Epoch 1/15 | Loss: 3.7398 | Global Dice: 0.3886
+  [ATTENTION_RESIDUAL_UNET] Epoch 2/15 | Loss: 3.4732 | Global Dice: 0.4361
+  [ATTENTION_RESIDUAL_UNET] Epoch 3/15 | Loss: 3.2632 | Global Dice: 0.4798
+  [ATTENTION_RESIDUAL_UNET] Epoch 4/15 | Loss: 3.1115 | Global Dice: 0.4330
+  [ATTENTION_RESIDUAL_UNET] Epoch 5/15 | Loss: 2.9827 | Global Dice: 0.4398
+  [ATTENTION_RESIDUAL_UNET] Epoch 6/15 | Loss: 2.8348 | Global Dice: 0.4797
+  [ATTENTION_RESIDUAL_UNET] Epoch 7/15 | Loss: 2.7472 | Global Dice: 0.4603
+  [ATTENTION_RESIDUAL_UNET] Epoch 8/15 | Loss: 2.6507 | Global Dice: 0.4264
+  [ATTENTION_RESIDUAL_UNET] Epoch 9/15 | Loss: 2.6058 | Global Dice: 0.4420
+  [ATTENTION_RESIDUAL_UNET] Epoch 10/15 | Loss: 2.5250 | Global Dice: 0.3955
+  [ATTENTION_RESIDUAL_UNET] Epoch 11/15 | Loss: 2.4566 | Global Dice: 0.3125
+  [ATTENTION_RESIDUAL_UNET] Epoch 12/15 | Loss: 2.3776 | Global Dice: 0.5008
+  [ATTENTION_RESIDUAL_UNET] Epoch 13/15 | Loss: 2.3413 | Global Dice: 0.3837
+  [ATTENTION_RESIDUAL_UNET] Epoch 14/15 | Loss: 2.3503 | Global Dice: 0.4789
+  [ATTENTION_RESIDUAL_UNET] Epoch 15/15 | Loss: 2.3056 | Global Dice: 0.3520
+✅ Full Cross-Validation & Visual Logging complete for attention_residual_unet

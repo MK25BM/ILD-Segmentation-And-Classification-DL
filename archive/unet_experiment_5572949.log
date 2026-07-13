@@ -1,0 +1,221 @@
+=================================================================
+🚀 PRODUCTION SEGMENTATION ENGINE: FIXED 70/15/15 COHORT CONFIG
+=================================================================
+
+🧬 Stratification Context Successfully Established:
+   • Train Cohort: 75 Patients
+   • Val Cohort:   15 Patients
+   • Test Cohort:  18 Patients
+
+⚡ [STANDARD_UNET] Launching Production Engine Optimization Context...
+   • Splits: Train=75 | Val=15 | Test=18
+🛠️ Prefetching dataset slice manifests & forcing index normalization...
+
+📋 PERFORMANCE PROFILE (VAL | EPOCH 1):
+───────────────────────────────────────────────────────────────────────────
+   • background                   | Dice Score: 0.8705 | Seen in 363 slices
+   • healthy_control              | Dice Score: 0.0000 | Seen in 0 slices
+   • emphysema                    | Dice Score: 0.0000 | Seen in 0 slices
+   • ground_glass                 | Dice Score: 0.0413 | Seen in 34 slices
+   • fibrosis                     | Dice Score: 0.0649 | Seen in 41 slices
+   • micronodules                 | Dice Score: 0.0821 | Seen in 26 slices
+   • consolidation                | Dice Score: 0.0266 | Seen in 45 slices
+───────────────────────────────────────────────────────────────────────────
+🌟 COMPUTED FOREGROUND DISEASE MEAN DICE: 0.0537
+───────────────────────────────────────────────────────────────────────────
+  • Epoch 1/50 | Loss: 1.0686 | Foreground Val Dice: 0.0537
+  • Epoch 2/50 | Loss: 0.7882 | Foreground Val Dice: 0.1218
+  • Epoch 3/50 | Loss: 0.6446 | Foreground Val Dice: 0.0917
+  • Epoch 4/50 | Loss: 0.5784 | Foreground Val Dice: 0.0998
+
+📋 PERFORMANCE PROFILE (VAL | EPOCH 5):
+───────────────────────────────────────────────────────────────────────────
+   • background                   | Dice Score: 0.9899 | Seen in 363 slices
+   • healthy_control              | Dice Score: 0.0000 | Seen in 0 slices
+   • emphysema                    | Dice Score: 0.0000 | Seen in 0 slices
+   • ground_glass                 | Dice Score: 0.1031 | Seen in 34 slices
+   • fibrosis                     | Dice Score: 0.0164 | Seen in 41 slices
+   • micronodules                 | Dice Score: 0.4251 | Seen in 26 slices
+   • consolidation                | Dice Score: 0.0675 | Seen in 45 slices
+───────────────────────────────────────────────────────────────────────────
+🌟 COMPUTED FOREGROUND DISEASE MEAN DICE: 0.1530
+───────────────────────────────────────────────────────────────────────────
+  • Epoch 5/50 | Loss: 0.5411 | Foreground Val Dice: 0.1530
+  • Epoch 6/50 | Loss: 0.5227 | Foreground Val Dice: 0.1963
+  • Epoch 7/50 | Loss: 0.5095 | Foreground Val Dice: 0.1945
+  • Epoch 8/50 | Loss: 0.5000 | Foreground Val Dice: 0.1548
+  • Epoch 9/50 | Loss: 0.4860 | Foreground Val Dice: 0.1932
+
+📋 PERFORMANCE PROFILE (VAL | EPOCH 10):
+───────────────────────────────────────────────────────────────────────────
+   • background                   | Dice Score: 0.9848 | Seen in 363 slices
+   • healthy_control              | Dice Score: 0.0000 | Seen in 0 slices
+   • emphysema                    | Dice Score: 0.0000 | Seen in 0 slices
+   • ground_glass                 | Dice Score: 0.1072 | Seen in 34 slices
+   • fibrosis                     | Dice Score: 0.0000 | Seen in 41 slices
+   • micronodules                 | Dice Score: 0.6599 | Seen in 26 slices
+   • consolidation                | Dice Score: 0.1029 | Seen in 45 slices
+───────────────────────────────────────────────────────────────────────────
+🌟 COMPUTED FOREGROUND DISEASE MEAN DICE: 0.2175
+───────────────────────────────────────────────────────────────────────────
+  • Epoch 10/50 | Loss: 0.4834 | Foreground Val Dice: 0.2175
+  • Epoch 11/50 | Loss: 0.4695 | Foreground Val Dice: 0.2047
+  • Epoch 12/50 | Loss: 0.4625 | Foreground Val Dice: 0.1864
+  • Epoch 13/50 | Loss: 0.4567 | Foreground Val Dice: 0.1943
+  • Epoch 14/50 | Loss: 0.4467 | Foreground Val Dice: 0.1930
+
+📋 PERFORMANCE PROFILE (VAL | EPOCH 15):
+───────────────────────────────────────────────────────────────────────────
+   • background                   | Dice Score: 0.9872 | Seen in 363 slices
+   • healthy_control              | Dice Score: 0.0000 | Seen in 0 slices
+   • emphysema                    | Dice Score: 0.0000 | Seen in 0 slices
+   • ground_glass                 | Dice Score: 0.0073 | Seen in 34 slices
+   • fibrosis                     | Dice Score: 0.0009 | Seen in 41 slices
+   • micronodules                 | Dice Score: 0.7022 | Seen in 26 slices
+   • consolidation                | Dice Score: 0.1272 | Seen in 45 slices
+───────────────────────────────────────────────────────────────────────────
+🌟 COMPUTED FOREGROUND DISEASE MEAN DICE: 0.2094
+───────────────────────────────────────────────────────────────────────────
+  • Epoch 15/50 | Loss: 0.4422 | Foreground Val Dice: 0.2094
+  • Epoch 16/50 | Loss: 0.4306 | Foreground Val Dice: 0.2053
+  • Epoch 17/50 | Loss: 0.4273 | Foreground Val Dice: 0.2053
+  • Epoch 18/50 | Loss: 0.4206 | Foreground Val Dice: 0.1787
+  • Epoch 19/50 | Loss: 0.4154 | Foreground Val Dice: 0.2090
+
+📋 PERFORMANCE PROFILE (VAL | EPOCH 20):
+───────────────────────────────────────────────────────────────────────────
+   • background                   | Dice Score: 0.9908 | Seen in 363 slices
+   • healthy_control              | Dice Score: 0.0000 | Seen in 0 slices
+   • emphysema                    | Dice Score: 0.0000 | Seen in 0 slices
+   • ground_glass                 | Dice Score: 0.0081 | Seen in 34 slices
+   • fibrosis                     | Dice Score: 0.0023 | Seen in 41 slices
+   • micronodules                 | Dice Score: 0.7182 | Seen in 26 slices
+   • consolidation                | Dice Score: 0.0924 | Seen in 45 slices
+───────────────────────────────────────────────────────────────────────────
+🌟 COMPUTED FOREGROUND DISEASE MEAN DICE: 0.2052
+───────────────────────────────────────────────────────────────────────────
+  • Epoch 20/50 | Loss: 0.3975 | Foreground Val Dice: 0.2052
+  • Epoch 21/50 | Loss: 0.4024 | Foreground Val Dice: 0.1962
+  • Epoch 22/50 | Loss: 0.3860 | Foreground Val Dice: 0.2212
+  • Epoch 23/50 | Loss: 0.3895 | Foreground Val Dice: 0.2128
+  • Epoch 24/50 | Loss: 0.3769 | Foreground Val Dice: 0.1810
+
+📋 PERFORMANCE PROFILE (VAL | EPOCH 25):
+───────────────────────────────────────────────────────────────────────────
+   • background                   | Dice Score: 0.9942 | Seen in 363 slices
+   • healthy_control              | Dice Score: 0.0000 | Seen in 0 slices
+   • emphysema                    | Dice Score: 0.0000 | Seen in 0 slices
+   • ground_glass                 | Dice Score: 0.0446 | Seen in 34 slices
+   • fibrosis                     | Dice Score: 0.0085 | Seen in 41 slices
+   • micronodules                 | Dice Score: 0.7406 | Seen in 26 slices
+   • consolidation                | Dice Score: 0.0197 | Seen in 45 slices
+───────────────────────────────────────────────────────────────────────────
+🌟 COMPUTED FOREGROUND DISEASE MEAN DICE: 0.2034
+───────────────────────────────────────────────────────────────────────────
+  • Epoch 25/50 | Loss: 0.3698 | Foreground Val Dice: 0.2034
+  • Epoch 26/50 | Loss: 0.3737 | Foreground Val Dice: 0.2200
+  • Epoch 27/50 | Loss: 0.3625 | Foreground Val Dice: 0.2511
+  • Epoch 28/50 | Loss: 0.3610 | Foreground Val Dice: 0.2406
+  • Epoch 29/50 | Loss: 0.3543 | Foreground Val Dice: 0.2483
+
+📋 PERFORMANCE PROFILE (VAL | EPOCH 30):
+───────────────────────────────────────────────────────────────────────────
+   • background                   | Dice Score: 0.9933 | Seen in 363 slices
+   • healthy_control              | Dice Score: 0.0000 | Seen in 0 slices
+   • emphysema                    | Dice Score: 0.0000 | Seen in 0 slices
+   • ground_glass                 | Dice Score: 0.1473 | Seen in 34 slices
+   • fibrosis                     | Dice Score: 0.0316 | Seen in 41 slices
+   • micronodules                 | Dice Score: 0.7298 | Seen in 26 slices
+   • consolidation                | Dice Score: 0.0830 | Seen in 45 slices
+───────────────────────────────────────────────────────────────────────────
+🌟 COMPUTED FOREGROUND DISEASE MEAN DICE: 0.2479
+───────────────────────────────────────────────────────────────────────────
+  • Epoch 30/50 | Loss: 0.3520 | Foreground Val Dice: 0.2479
+  • Epoch 31/50 | Loss: 0.3461 | Foreground Val Dice: 0.2495
+  • Epoch 32/50 | Loss: 0.3534 | Foreground Val Dice: 0.2518
+  • Epoch 33/50 | Loss: 0.3473 | Foreground Val Dice: 0.2621
+  • Epoch 34/50 | Loss: 0.3345 | Foreground Val Dice: 0.2563
+
+📋 PERFORMANCE PROFILE (VAL | EPOCH 35):
+───────────────────────────────────────────────────────────────────────────
+   • background                   | Dice Score: 0.9935 | Seen in 363 slices
+   • healthy_control              | Dice Score: 0.0000 | Seen in 0 slices
+   • emphysema                    | Dice Score: 0.0000 | Seen in 0 slices
+   • ground_glass                 | Dice Score: 0.1702 | Seen in 34 slices
+   • fibrosis                     | Dice Score: 0.0996 | Seen in 41 slices
+   • micronodules                 | Dice Score: 0.7047 | Seen in 26 slices
+   • consolidation                | Dice Score: 0.0374 | Seen in 45 slices
+───────────────────────────────────────────────────────────────────────────
+🌟 COMPUTED FOREGROUND DISEASE MEAN DICE: 0.2530
+───────────────────────────────────────────────────────────────────────────
+  • Epoch 35/50 | Loss: 0.3258 | Foreground Val Dice: 0.2530
+  • Epoch 36/50 | Loss: 0.3345 | Foreground Val Dice: 0.2581
+  • Epoch 37/50 | Loss: 0.3394 | Foreground Val Dice: 0.2671
+  • Epoch 38/50 | Loss: 0.3215 | Foreground Val Dice: 0.2691
+  • Epoch 39/50 | Loss: 0.3215 | Foreground Val Dice: 0.2617
+
+📋 PERFORMANCE PROFILE (VAL | EPOCH 40):
+───────────────────────────────────────────────────────────────────────────
+   • background                   | Dice Score: 0.9931 | Seen in 363 slices
+   • healthy_control              | Dice Score: 0.0000 | Seen in 0 slices
+   • emphysema                    | Dice Score: 0.0000 | Seen in 0 slices
+   • ground_glass                 | Dice Score: 0.1792 | Seen in 34 slices
+   • fibrosis                     | Dice Score: 0.1456 | Seen in 41 slices
+   • micronodules                 | Dice Score: 0.7157 | Seen in 26 slices
+   • consolidation                | Dice Score: 0.0409 | Seen in 45 slices
+───────────────────────────────────────────────────────────────────────────
+🌟 COMPUTED FOREGROUND DISEASE MEAN DICE: 0.2704
+───────────────────────────────────────────────────────────────────────────
+  • Epoch 40/50 | Loss: 0.3306 | Foreground Val Dice: 0.2704
+  • Epoch 41/50 | Loss: 0.3250 | Foreground Val Dice: 0.2587
+  • Epoch 42/50 | Loss: 0.3134 | Foreground Val Dice: 0.2689
+  • Epoch 43/50 | Loss: 0.3239 | Foreground Val Dice: 0.2742
+  • Epoch 44/50 | Loss: 0.3131 | Foreground Val Dice: 0.2626
+
+📋 PERFORMANCE PROFILE (VAL | EPOCH 45):
+───────────────────────────────────────────────────────────────────────────
+   • background                   | Dice Score: 0.9929 | Seen in 363 slices
+   • healthy_control              | Dice Score: 0.0000 | Seen in 0 slices
+   • emphysema                    | Dice Score: 0.0000 | Seen in 0 slices
+   • ground_glass                 | Dice Score: 0.1776 | Seen in 34 slices
+   • fibrosis                     | Dice Score: 0.1542 | Seen in 41 slices
+   • micronodules                 | Dice Score: 0.6964 | Seen in 26 slices
+   • consolidation                | Dice Score: 0.0373 | Seen in 45 slices
+───────────────────────────────────────────────────────────────────────────
+🌟 COMPUTED FOREGROUND DISEASE MEAN DICE: 0.2664
+───────────────────────────────────────────────────────────────────────────
+  • Epoch 45/50 | Loss: 0.3118 | Foreground Val Dice: 0.2664
+  • Epoch 46/50 | Loss: 0.3258 | Foreground Val Dice: 0.2681
+  • Epoch 47/50 | Loss: 0.3248 | Foreground Val Dice: 0.2704
+  • Epoch 48/50 | Loss: 0.3168 | Foreground Val Dice: 0.2694
+  • Epoch 49/50 | Loss: 0.3213 | Foreground Val Dice: 0.2675
+
+📋 PERFORMANCE PROFILE (VAL | EPOCH 50):
+───────────────────────────────────────────────────────────────────────────
+   • background                   | Dice Score: 0.9930 | Seen in 363 slices
+   • healthy_control              | Dice Score: 0.0000 | Seen in 0 slices
+   • emphysema                    | Dice Score: 0.0000 | Seen in 0 slices
+   • ground_glass                 | Dice Score: 0.1759 | Seen in 34 slices
+   • fibrosis                     | Dice Score: 0.1570 | Seen in 41 slices
+   • micronodules                 | Dice Score: 0.7039 | Seen in 26 slices
+   • consolidation                | Dice Score: 0.0377 | Seen in 45 slices
+───────────────────────────────────────────────────────────────────────────
+🌟 COMPUTED FOREGROUND DISEASE MEAN DICE: 0.2686
+───────────────────────────────────────────────────────────────────────────
+  • Epoch 50/50 | Loss: 0.3106 | Foreground Val Dice: 0.2686
+
+🔒 EVALUATING UNSEEN PATIENT SPLIT TEST HOLDOUT...
+
+📋 PERFORMANCE PROFILE (FINAL SECURE TEST HOLDOUT):
+───────────────────────────────────────────────────────────────────────────
+   • background                   | Dice Score: 0.9896 | Seen in 412 slices
+   • healthy_control              | Dice Score: 0.0000 | Seen in 16 slices
+   • emphysema                    | Dice Score: 0.0001 | Seen in 33 slices
+   • ground_glass                 | Dice Score: 0.1310 | Seen in 29 slices
+   • fibrosis                     | Dice Score: 0.1390 | Seen in 58 slices
+   • micronodules                 | Dice Score: 0.1259 | Seen in 20 slices
+   • consolidation                | Dice Score: 0.1390 | Seen in 59 slices
+───────────────────────────────────────────────────────────────────────────
+🌟 COMPUTED FOREGROUND DISEASE MEAN DICE: 0.0892
+───────────────────────────────────────────────────────────────────────────
+✅ Fixed Stratified Single Experiment Complete for: standard_unet

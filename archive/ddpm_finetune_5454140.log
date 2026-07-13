@@ -1,0 +1,52 @@
+/home/u6dm/mk25bm.u6dm/miniforge3/envs/ild_ddpm/lib/python3.10/site-packages/torch/cuda/__init__.py:187: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 12070). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  return torch._C._cuda_getDeviceCount() > 0
+=== 🎨 Initializing Native Stable DDPM Fine-Tuning Pipeline ===
+Checking for pre-trained weights at: /projects/u6dm/mk25bm.u6dm/ILD-Segmentation-And-Classification-DL/pretrained_checkpoints/best_model.pt
+✅ Successfully transferred 0 layer tensor fields.
+Epoch 1/20 | Fine-Tuning MSE Loss: 1.20048
+Epoch 2/20 | Fine-Tuning MSE Loss: 0.90284
+Epoch 3/20 | Fine-Tuning MSE Loss: 0.73637
+Epoch 4/20 | Fine-Tuning MSE Loss: 0.64685
+Epoch 5/20 | Fine-Tuning MSE Loss: 0.58863
+Epoch 6/20 | Fine-Tuning MSE Loss: 0.55825
+Epoch 7/20 | Fine-Tuning MSE Loss: 0.53748
+Epoch 8/20 | Fine-Tuning MSE Loss: 0.51549
+Epoch 9/20 | Fine-Tuning MSE Loss: 0.51845
+Epoch 10/20 | Fine-Tuning MSE Loss: 0.50231
+Epoch 11/20 | Fine-Tuning MSE Loss: 0.48727
+Epoch 12/20 | Fine-Tuning MSE Loss: 0.47869
+Epoch 13/20 | Fine-Tuning MSE Loss: 0.46688
+Epoch 14/20 | Fine-Tuning MSE Loss: 0.45904
+Epoch 15/20 | Fine-Tuning MSE Loss: 0.45051
+Epoch 16/20 | Fine-Tuning MSE Loss: 0.44974
+Epoch 17/20 | Fine-Tuning MSE Loss: 0.44694
+Epoch 18/20 | Fine-Tuning MSE Loss: 0.43481
+Epoch 19/20 | Fine-Tuning MSE Loss: 0.43202
+Epoch 20/20 | Fine-Tuning MSE Loss: 0.42601
+✅ Generative fine-tuning complete. Custom textures synthesized.
+/home/u6dm/mk25bm.u6dm/miniforge3/envs/ild_ddpm/lib/python3.10/site-packages/torch/cuda/__init__.py:187: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 12070). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  return torch._C._cuda_getDeviceCount() > 0
+=== 🎨 Initializing Native Stable DDPM Fine-Tuning Pipeline ===
+Checking for pre-trained weights at: /projects/u6dm/mk25bm.u6dm/ILD-Segmentation-And-Classification-DL/pretrained_checkpoints/best_model.pt
+✅ Successfully transferred 0 layer tensor fields.
+Epoch 1/20 | Fine-Tuning MSE Loss: 1.37418
+Epoch 2/20 | Fine-Tuning MSE Loss: 1.03140
+Epoch 3/20 | Fine-Tuning MSE Loss: 0.90930
+Epoch 4/20 | Fine-Tuning MSE Loss: 0.83282
+Epoch 5/20 | Fine-Tuning MSE Loss: 0.76760
+Epoch 6/20 | Fine-Tuning MSE Loss: 0.71828
+Epoch 7/20 | Fine-Tuning MSE Loss: 0.69231
+Epoch 8/20 | Fine-Tuning MSE Loss: 0.65356
+Epoch 9/20 | Fine-Tuning MSE Loss: 0.63806
+Epoch 10/20 | Fine-Tuning MSE Loss: 0.61022
+Epoch 11/20 | Fine-Tuning MSE Loss: 0.60471
+Epoch 12/20 | Fine-Tuning MSE Loss: 0.59280
+Epoch 13/20 | Fine-Tuning MSE Loss: 0.57552
+Epoch 14/20 | Fine-Tuning MSE Loss: 0.56788
+Epoch 15/20 | Fine-Tuning MSE Loss: 0.56320
+Epoch 16/20 | Fine-Tuning MSE Loss: 0.55070
+Epoch 17/20 | Fine-Tuning MSE Loss: 0.53974
+Epoch 18/20 | Fine-Tuning MSE Loss: 0.53079
+Epoch 19/20 | Fine-Tuning MSE Loss: 0.52113
+Epoch 20/20 | Fine-Tuning MSE Loss: 0.51493
+✅ Generative fine-tuning complete. Custom textures synthesized.

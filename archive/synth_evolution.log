@@ -1,0 +1,40 @@
+=================================================================
+🚀 LUNG-DDPM+ CONTROLLED CLASS-CONDITIONAL GENERATION ENGINE
+=================================================================
+   ✅ Successfully loaded trained parameters from: /projects/u6dm/mk25bm.u6dm/ILD-Segmentation-And-Classification-DL/benchmarks_cv/ddpm_model_pt/checkpoint_ddpm_epoch_100.pt
+
+🎨 Forcing synthesis for pathology class: EMPHYSEMA...
+   🎉 Successful! Pristine augmented matrix sheet saved: guided_synthesis_emphysema.png
+
+🎨 Forcing synthesis for pathology class: GROUND_GLASS...
+   🎉 Successful! Pristine augmented matrix sheet saved: guided_synthesis_ground_glass.png
+
+🎨 Forcing synthesis for pathology class: FIBROSIS...
+   🎉 Successful! Pristine augmented matrix sheet saved: guided_synthesis_fibrosis.png
+
+🎨 Forcing synthesis for pathology class: MICRONODULES...
+   🎉 Successful! Pristine augmented matrix sheet saved: guided_synthesis_micronodules.png
+
+🎨 Forcing synthesis for pathology class: CONSOLIDATION...
+   🎉 Successful! Pristine augmented matrix sheet saved: guided_synthesis_consolidation.png
+
+🏆 CLASS-CONDITIONAL COHORT GENERATION PASS COMPLETE.
+=================================================================
+=================================================================
+🔬 INITIALIZING HIGH-FIDELITY DISTRIBUTION AUDITOR (FID / KID)
+=================================================================
+Downloading: "https://download.pytorch.org/models/resnet18-f37072fd.pth" to /home/u6dm/mk25bm.u6dm/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth
+  0%|          | 0.00/44.7M [00:00<?, ?B/s]  3%|▎         | 1.25M/44.7M [00:00<00:03, 12.5MB/s] 10%|▉         | 4.38M/44.7M [00:00<00:01, 23.9MB/s] 20%|██        | 9.12M/44.7M [00:00<00:01, 33.3MB/s] 36%|███▌      | 16.1M/44.7M [00:00<00:00, 46.1MB/s] 50%|█████     | 22.4M/44.7M [00:00<00:00, 52.1MB/s] 66%|██████▌   | 29.5M/44.7M [00:00<00:00, 59.2MB/s] 79%|███████▉  | 35.2M/44.7M [00:00<00:00, 55.7MB/s] 99%|█████████▉| 44.1M/44.7M [00:00<00:00, 64.1MB/s]100%|██████████| 44.7M/44.7M [00:00<00:00, 53.4MB/s]
+📡 Extracting feature maps for real baseline patient cohorts...
+
+📡 Running cross-class distribution analysis against real patient profiles...
+─────────────────────────────────────────────────────────────────
+   • consolidation             | Calculated FID Discrepancy Score: 298.45
+   • emphysema                 | Calculated FID Discrepancy Score: 300.61
+   • fibrosis                  | Calculated FID Discrepancy Score: 286.62
+   • ground_glass              | Calculated FID Discrepancy Score: 304.29
+   • micronodules              | Calculated FID Discrepancy Score: 296.38
+   • other_rare_pathologies    | Calculated FID Discrepancy Score: 538.24
+─────────────────────────────────────────────────────────────────
+✅ DISTRIBUTION METRICS RECO_RDED: artifacts/synthetic_distribution_fid_scores.csv
+=================================================================

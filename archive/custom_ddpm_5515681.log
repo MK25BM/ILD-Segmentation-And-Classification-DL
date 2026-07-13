@@ -1,0 +1,28 @@
+📡 [09:33:56] 🚀 INITIALIZING PARALLEL OPENAI GUIDED-DIFFUSION DIAGNOSTIC WORKER
+📡 [09:33:59] Checking hardware allocation hooks...
+📡 [09:33:59] Compute engine mapped strictly to device context: cuda
+📡 [09:33:59] Loading multi-label stratified cross-validation splits...
+=================================================================
+🔒 HOLDOUT TEST SET SECURED: 21 patients permanently banned from training.
+   Manifest saved to: /projects/u6dm/mk25bm.u6dm/ILD-Segmentation-And-Classification-DL/permanent_holdout_test_set.csv
+=================================================================
+
+⚖️ Cross-Validation Fold Stratification Profiles (87 Active Patients):
+  • Fold 1: Total Patients = 14 | Unique Diseases Covered = 6/6
+  • Fold 2: Total Patients = 11 | Unique Diseases Covered = 4/6
+  • Fold 3: Total Patients = 13 | Unique Diseases Covered = 5/6
+  • Fold 4: Total Patients = 29 | Unique Diseases Covered = 6/6
+  • Fold 5: Total Patients = 20 | Unique Diseases Covered = 6/6
+=================================================================
+
+📡 [09:34:03] Holdout isolation complete. Training pool restricted to 73 active patients.
+📡 [09:34:03] Initializing High-Speed Native Disk Scraper...
+📡 [09:34:05] Disk scraper built sample matrix array containing 616 targeted slices.
+📡 [09:34:05] Dataset manifest creation elapsed time: 1.79 seconds.
+📡 [09:34:05] Building UNetModel neural configuration maps...
+📡 [09:34:05] Model compiled and pushed to active GPU memory channels successfully.
+📡 [09:34:11] === 🎨 DISPATCHING VOLUMETRIC 3D DDPM LOOP MATRIX FOR 100 EPOCHS ===
+Traceback (most recent call last):
+  File "/projects/u6dm/mk25bm.u6dm/ILD-Segmentation-And-Classification-DL/run_ddpm_training.py", line 119, in <module>
+    og_milestone(f"🏁 Beginning Epoch {epoch}/{epochs} data pipeline stream pass...")
+NameError: name 'og_milestone' is not defined. Did you mean: 'log_milestone'?

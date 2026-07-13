@@ -1,0 +1,14 @@
+=== 🧪 INITIALIZING GENERATIVE REVERSE-DENOISING FORENSIC ENGINE ===
+📡 Hardware Accelerator context locked to: cuda
+   ✅ Successfully loaded trained diffusion parameters from: /projects/u6dm/mk25bm.u6dm/ILD-Segmentation-And-Classification-DL/benchmarks_cv/ddpm_model_pt/checkpoint_ddpm_epoch_10.pt
+
+🎨 Reverse-denoising noise matrix over 1000 timesteps to paint textures...
+   📸 Frame saved: snapshot_timestep_999.png
+   📸 Frame saved: snapshot_timestep_750.png
+   📸 Frame saved: snapshot_timestep_500.png
+   📸 Frame saved: snapshot_timestep_250.png
+   📸 Frame saved: snapshot_timestep_0.png
+
+🎉 SUCCESS: Pristine synthetic slice written successfully to:
+👉 /projects/u6dm/mk25bm.u6dm/ILD-Segmentation-And-Classification-DL/synthetic_augmentations/epoch_10_synthetic_sample.png
+=================================================================

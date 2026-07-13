@@ -1,0 +1,25 @@
+=================================================================
+🏆 STANDALONE STAGE 2 BASELINE HOLDOUT EVALUATOR (STANDARD_UNET) 🏆
+=================================================================
+🔒 Isolated Holdout Test Set Loaded: 21 patients isolated.
+/home/u6dm/mk25bm.u6dm/miniforge3/envs/ild_ddpm/lib/python3.10/site-packages/torch/cuda/__init__.py:187: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 12070). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at /pytorch/c10/cuda/CUDAFunctions.cpp:119.)
+  return torch._C._cuda_getDeviceCount() > 0
+
+⚙️ Running holdout inference matrix for model: STANDARD_UNET...
+
+================================================================================
+🏆 DEFINITIVE HOLDOUT PERFORMANCE PROFILE: STANDARD_UNET
+================================================================================
+  • Mean Foreground Volume Dice (With Healthy): 0.6141
+  • 🚨 PURE DISEASE MEAN DICE (EXCLUDING HEALTHY): 0.6201
+  • Volume Median Foreground Dice Score        : 0.5752
+
+   🔬 Itemized 8-Class Pathology Performance Spectrum Breakdown:
+     • HEALTHY                  | Holdout Test Dice: 0.5782
+     • EMPHYSEMA                | Holdout Test Dice: 0.5848
+     • GROUND_GLASS             | Holdout Test Dice: 0.6013
+     • FIBROSIS                 | Holdout Test Dice: 0.6142
+     • MICRONODULES             | Holdout Test Dice: 0.6270
+     • CONSOLIDATION            | Holdout Test Dice: 0.6417
+     • OTHER_RARE_PATHOLOGIES   | Holdout Test Dice: 0.6516
+=================================================================

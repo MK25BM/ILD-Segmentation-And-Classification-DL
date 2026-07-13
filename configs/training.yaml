@@ -1,0 +1,77 @@
+# ─── BASELINE TRAINING CONFIG ───
+experiment:
+  name: "baseline_unet_ild"
+  description: "U-Net baseline on sparse ILD ROI segmentation"
+  seed: 42
+
+model:
+  name: "standard_unet"
+  in_channels: 1
+  out_channels: 8
+  init_filters: 32
+
+training:
+  seed: 42
+  epochs: 100
+  batch_size: 8
+  learning_rate: 1.0e-4
+  weight_decay: 1.0e-5
+  optimizer: "adam"
+  
+  loss: "dice_ce"
+  class_weights:
+    0: 0.01
+    1: 10.0
+    2: 15.0
+    3: 50.0
+    4: 50.0
+    5: 40.0
+    6: 30.0
+    7: 20.0
+  
+  scheduler:
+    name: "cosine_annealing"
+    T_max: 100
+    eta_min: 1.0e-6
+  
+  early_stopping:
+    enabled: true
+    patience: 15
+    min_delta: 0.001
+
+dataset:
+  train_ratio: 0.7
+  val_ratio: 0.15
+  test_ratio: 0.15
+  seed: 42
+  
+  # Strategy (controls dataset.py behavior)
+  empty_mask_strategy: "skip"      # "skip" | "keep" | "weighted"
+  
+  # No augmentation for baseline
+  augmentation:
+    enabled: false
+
+logging:
+  log_dir: "artifacts/logs"
+  checkpoint_dir: "artifacts/checkpoints"
+  plot_dir: "artifacts/plots"
+  
+  # Logging frequency
+  log_frequency: 10        # Log every N batches
+  val_frequency: 1         # Validate every N epochs
+  checkpoint_frequency: 5  # Save checkpoint every N epochs
+  
+  # Metrics to track
+  metrics:
+    - "loss"
+    - "dice"
+    - "iou"
+    - "class_wise_dice"    # Per-class Dice
+    - "class_wise_iou"     # Per-class IoU
+    - "confusion_matrix"
+  
+  # Visualization
+  save_predictions: true
+  prediction_frequency: 10  # Save predictions every N epochs
+  prediction_samples: 5

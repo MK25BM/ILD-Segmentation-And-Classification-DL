@@ -1,0 +1,10 @@
+,STANDARD_UNET
+Global_Mean_Dice (Base),0.6360536456108093
+Foreground_Mean_Dice (ILD),0.145124548592
+Dice_healthy,0.7677571
+Dice_emphysema,0.0077102047600000004
+Dice_ground_glass,0.263722182
+Dice_fibrosis,0.269101994
+Dice_micronodules,0.0869631974
+Dice_consolidation,0.0981251648
+Dice_other_rare_pathologies,0.0
